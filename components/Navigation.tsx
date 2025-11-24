@@ -30,7 +30,6 @@ export default function Navigation() {
   const navLinks = [
     { href: '#about', label: 'about' },
     { href: '#skills', label: 'skills' },
-    { href: '#portfolio', label: 'portfolio' },
     { href: '#experience', label: 'experience' },
     { href: '#achievements', label: 'achievements' },
     { href: '#blog', label: 'blog' },
