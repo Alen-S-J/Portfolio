@@ -32,7 +32,7 @@ export default function Footer() {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <a
-            href="mailto:alansabuiohn@gmail.com"
+            href="mailto:alansabujohn@gmail.com"
             className="text-white/60 hover:text-white transition-colors text-sm uppercase tracking-wider font-mono"
           >
             Email

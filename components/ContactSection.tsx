@@ -51,7 +51,7 @@ export default function ContactSection() {
       setSubmitStatus('error')
       
       // Fallback: Open mail client as backup
-      const mailtoLink = `mailto:alansabuiohn@gmail.com?subject=Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}`
+      const mailtoLink = `mailto:alansabujohn@gmail.com?subject=Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}`
       window.location.href = mailtoLink
     } finally {
       setIsSubmitting(false)
@@ -124,7 +124,7 @@ export default function ContactSection() {
                   <h4 className="text-sm font-bold uppercase tracking-wide mb-1 text-white">
                     Email
                   </h4>
-                  <p className="text-sm text-white/70 font-mono">alansabuiohn@gmail.com</p>
+                  <p className="text-sm text-white/70 font-mono">alansabujohn@gmail.com</p>
                 </div>
               </div>
             </div>
